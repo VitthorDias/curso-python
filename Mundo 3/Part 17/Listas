@@ -1,0 +1,27 @@
+Append: variavel.append('x')
+
+insert: variavel.insert(posição, 'x')
+
+del: del variavel[]  <- para indice
+
+pop: variavel.pop()   <- para indice
+
+remove: variavel.remove('x')  <- para o valor-conteudo
+        --
+        if 'x' in variavel
+            variavel.remove('x')
+
+range nas listas: valores = list(range(4, 11))
+
+sort: variavel.sort()
+
+sort reverse: variavel.sort(reverse = True)
+
+---------------------------------------------------------------------------------------------
+a = [0, 2, 3, 5]
+b = a     (Não copia, mas sim ligação, ou seja, mexe em uma muda as duas!!!)
+---------------------------------------------------------------------------------------------
+a = [0, 2, 3, 5]
+b = a[:]   (Agora cria uma copia!!!)
+da pra usar o copy()
+b.copy()

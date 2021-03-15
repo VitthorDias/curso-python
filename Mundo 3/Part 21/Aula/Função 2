@@ -1,0 +1,26 @@
+Interactive Help:
+-help(argumento)
+-print(argumento.__doc__)
+
+docstrings:
+-def c(a, b, c):
+    """
+    ->Explique aqui como funciona a função.
+    e tals.
+    """
+
+
+Parâmetros opcionais:
+-def soma(a = 0, b = 0, c = 0)
+    s = a + b + c
+    print(s)
+
+
+Escopo de variáveis:
+-Variável criada dentro de uma função, ela será local apenas.
+-Variável criada fora de uma função, ela será global.
+-global variável
+
+
+Retorno de resultados:
+-nas funções, use return variavel

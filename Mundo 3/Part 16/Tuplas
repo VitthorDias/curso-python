@@ -1,0 +1,14 @@
+*tuplas é uma variavel que guarda varios itens.(variavel composta)
+*tuplas são imutáveis
+*podem começar com:
+    lanche = () [] {}
+  -> Sendo:
+        () Tupla
+        [] Lista
+        {} dicionario
+
+for c in lanche:
+    print(c)
+
+lanche.count(x)
+del(lanche) deletar uma tupla

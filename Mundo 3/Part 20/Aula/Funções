@@ -1,0 +1,9 @@
+def nome():
+    print("blablabla")
+
+nome()
+
+def texto(txt)
+    print(txt)
+
+texto(" asdas ")

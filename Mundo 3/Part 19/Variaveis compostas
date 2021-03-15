@@ -1,0 +1,10 @@
+=>Dicionários:
+    dados = dict()
+    dados = {}
+
+    dados = {'nome':'Pedro, 'idade':25}
+    print(dados['nome'])    Pedro
+    print(dados['idade'])   25
+
+    dados['sexo'] = 'M'     dados = {'nome':'Pedro, 'idade':25, 'sexo':'M'}
+    del dados['idade']      dados = {'nome':'Pedro, 'sexo':'M'}

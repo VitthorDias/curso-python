@@ -1,0 +1,6 @@
+pl = str(input("Uma frase: ")).upper().strip()
+print('=' * 100)
+print(f'Apareceu a letra A {pl.count("A")} vezes.')
+print(f'Apareceu pela primeira vez A na posição {pl.find("A") + 1}')
+print(f'Apareceu pela ultima vez A na posição {pl.rfind("A") + 1}')
+print('=' * 100)
